@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptografia e Descriptografia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="encript.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src='Logo.png' /></div>
+  </header>
+  <div class="container">
+    <div class="left-content">
+      <textarea id="inputText" class="input" placeholder="Digite seu texto" ></textarea>
+      <div class="buttons">
+        <button id="encryptButton" class="button">Criptografar</button>
+        <button id="decryptButton" class="button secondary">Descriptografar</button>
+      </div>
+    </div>
+    <div class="right-content">
+      <div id="result" >
+        <div class="no_message">
+            <img id="no_messgae_img" src="no_message.png" />
+            <div id="no_messgae_text">
+                <p id="no_message_title">Nenhuma mensagem encontrada</p>
+            <p id="no_message_description">Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
